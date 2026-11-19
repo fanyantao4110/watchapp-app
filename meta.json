@@ -1,0 +1,122 @@
+[
+ {
+  "src": "2048新版_1.1_Fit2_ORDMPMNOPSLAFA64C43B94C091B.hap",
+  "out": "2048_fit2.app",
+  "bundle": "drt.sign.2048new.nexus.q4fpi",
+  "signed": true,
+  "p7b": 4114,
+  "files": 144,
+  "hap": 1765571,
+  "app": 1765713,
+  "cfg_bundle": "drt.sign.2048new.nexus.q4fpi",
+  "cfg_ver": "1.10.20260429",
+  "cfg_label": null,
+  "minApi": null,
+  "devices": null,
+  "pack_label": null,
+  "pack_bundle": "com.github.kqakqakqa.hmlitewearable.poweroftwo",
+  "pack_ver": {
+   "code": 1,
+   "name": "1.10.20260429"
+  },
+  "mods": [
+   null
+  ]
+ },
+ {
+  "src": "小恐龙坤坤重置版_1.0.0_Fit2_ORDMPMK357MC3C373B9D5B7F350.hap",
+  "out": "kongkong_fit2.app",
+  "bundle": "drt.sign.kl.nexus.ph4rv",
+  "signed": true,
+  "p7b": 4109,
+  "files": 33,
+  "hap": 753828,
+  "app": 753970,
+  "cfg_bundle": "drt.sign.kl.nexus.ph4rv",
+  "cfg_ver": "1.0.0",
+  "cfg_label": null,
+  "minApi": null,
+  "devices": null,
+  "pack_label": null,
+  "pack_bundle": "com.example.xiaokong",
+  "pack_ver": {
+   "code": 1000000,
+   "name": "1.0.0"
+  },
+  "mods": [
+   null
+  ]
+ },
+ {
+  "src": "斗地主_1.0.0_Fit2_ORDMPMJVAVT0352DDCF07AF453F.hap",
+  "out": "doudizhu_fit2.app",
+  "bundle": "drt.sign.ddz.nexus.jjuqq",
+  "signed": true,
+  "p7b": 4110,
+  "files": 211,
+  "hap": 4265032,
+  "app": 4265174,
+  "cfg_bundle": "drt.sign.ddz.nexus.jjuqq",
+  "cfg_ver": "1.0.0",
+  "cfg_label": null,
+  "minApi": null,
+  "devices": null,
+  "pack_label": null,
+  "pack_bundle": "com.drt.doudizhu",
+  "pack_ver": {
+   "code": 1000000,
+   "name": "1.0.0"
+  },
+  "mods": [
+   null
+  ]
+ },
+ {
+  "src": "棋类游戏(五子,围,象棋)_2.0_Fit2_ORDMPMJW0G02F9867B225294F18.hap",
+  "out": "qilei_fit2.app",
+  "bundle": "drt.sign.wzq.nexus.khq1f",
+  "signed": true,
+  "p7b": 4111,
+  "files": 45,
+  "hap": 1077382,
+  "app": 1077524,
+  "cfg_bundle": "drt.sign.wzq.nexus.khq1f",
+  "cfg_ver": "1.0.0",
+  "cfg_label": null,
+  "minApi": null,
+  "devices": null,
+  "pack_label": null,
+  "pack_bundle": "com.example.xiangsu",
+  "pack_ver": {
+   "code": 1000000,
+   "name": "1.0.0"
+  },
+  "mods": [
+   null
+  ]
+ },
+ {
+  "src": "跳一跳,螃蟹先生_2.1_Fit2_ORDMPMJYCY48D2ACC58AC57ADAE.hap",
+  "out": "tiaoyi_fit2.app",
+  "bundle": "drt.sign.tyt.nexus.d27lv",
+  "signed": true,
+  "p7b": 4106,
+  "files": 182,
+  "hap": 10698863,
+  "app": 10699005,
+  "cfg_bundle": "drt.sign.tyt.nexus.d27lv",
+  "cfg_ver": "2.4.0",
+  "cfg_label": null,
+  "minApi": null,
+  "devices": null,
+  "pack_label": null,
+  "pack_bundle": "com.crab.jump3D",
+  "pack_ver": {
+   "code": 6,
+   "name": "2.4.0"
+  },
+  "mods": [
+   null
+  ]
+ }
+]
