@@ -12,13 +12,36 @@ Fit2 手表应用的 .app 包（由原 .hap 反向转换而来）。
 
 ## 结构
 
-每个 `.app` 是一个 zip：
+每个 `.app` 是 zip，根目录两个条目（均为 STORE 未压缩）：
 
 ```
-entry-release-lite.hap   (STORE，未压缩)
+pack.info                  ← app 级清单（json）
+entry-release-lite.hap     ← 与 pack.info.packages[0].name 对应
 ```
 
-里面的 `.hap` 是 zip，含 `config.json`、`pack.info`、`resources.index`、`ets/` 等真实模块文件，可由 hap-sign-utils 重新读取（app → hap → bin），并由它签名成 `signed.bin` 形态的已签名 hap。
+`pack.info` 原文如下（以斗地主为例，直接从原 hap 内部原样取出）：
+
+```json
+{
+ "summary": {
+  "app": { "bundleName": "com.drt.doudizhu", "version": { "code": 1000000, "name": "1.0.0" } },
+  "modules": [{
+   "deviceType": ["liteWearable"],
+   "abilities": [{ "name": "default", "label": "$string:entry_MainAbility" }],
+   "distro": { "moduleType": "entry", "deliveryWithInstall": true, "moduleName": "entry" },
+   "apiVersion": { "compatible": 7, "releaseType": "Release", "target": 7 }
+  }]
+ },
+ "packages": [{
+  "deviceType": ["liteWearable"],
+  "moduleType": "entry",
+  "deliveryWithInstall": true,
+  "name": "entry-release-lite"
+ }]
+}
+```
+
+里面的 hap 是 zip，含 `config.json`、`pack.info`、`assets/entry/resources.index`、`assets/js/default/*` 等真实模块文件（`config.json` 在 hap 里，不在 app 根目录，这是 app/hap 两层结构决定的）。
 
 ## 转换方式
 
@@ -29,9 +52,9 @@ entry-release-lite.hap   (STORE，未压缩)
 1. 取出 `signed.bin`，按签名头 `subBlockSize` 找到 proBlock，截出未签名区；
 2. 逐条目解析出全部真实文件（144 / 33 / 211 / 45 / 182 个）；
 3. 重新打包成未签名 `.hap`（zip，STORE）；
-4. 包成 `.app`（zip 内一个 STORE 的 `entry-release-lite.hap`）。
+4. 从 hap 内部取出 `pack.info`，与重打的 hap 一起打成 `.app`：`pack.info` + `<packages[0].name>.hap`；
 
-脚本：`conv.py`（与本仓库同源，可在本地复现）。
+脚本：`conv2.py`（正式 app 结构）与 `binlib.py`（BIN 解析库），在本地可复现。
 
 ## 注意
 
