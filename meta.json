@@ -53,5 +53,197 @@
   "deviceTypes": [
    "liteWearable"
   ]
+ },
+ {
+  "out": "2048_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 1767059,
+  "app": 1768083,
+  "bundleName": "drt.sign.2048new.nexus.v6fpj",
+  "ver": "1.10.20260429",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "atri_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 10899952,
+  "app": 10900976,
+  "bundleName": "com.atri_mdm.port.hmlite",
+  "ver": "1.16.20260823",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "uno_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 90907,
+  "app": 91931,
+  "bundleName": "nexus.sign.tduno.nexus.szp35",
+  "ver": "1.1.1",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "a24_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 106641,
+  "app": 107665,
+  "bundleName": "nexus.sign.a24d.nexus.1e5je",
+  "ver": "1.0.0",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "biecaibaikuai_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 1230033,
+  "app": 1231057,
+  "bundleName": "drt.sign.biecbk.nexus.vh9sk",
+  "ver": "1.0.0",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "saolei_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 1532674,
+  "app": 1533698,
+  "bundleName": "drt.sign.sl.nexus.dvkge",
+  "ver": "2.1.2",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "fileviewer_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 1027783,
+  "app": 1028807,
+  "bundleName": "drt.sign.file.nexus.a4dxv",
+  "ver": "1.17.20260406",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "doodlejump_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 1904282,
+  "app": 1905306,
+  "bundleName": "drt.sign.tuya.nexus.8lh7p",
+  "ver": "2.1",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "wristbili_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 1346297,
+  "app": 1347321,
+  "bundleName": "nexus.sign.wsblt.nexus.oveyk",
+  "ver": "beta-2.0",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "qinghong_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 2019906,
+  "app": 2020930,
+  "bundleName": "nexus.sign.qhllq.nexus.wkjlc",
+  "ver": "1.1.1",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "randomevent_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 6867665,
+  "app": 6868689,
+  "bundleName": "drt.sign.sjsj.nexus.qkmap",
+  "ver": "1.0.4",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "contra_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 33214280,
+  "app": 33215304,
+  "bundleName": "nexus.sign.whdlfc.nexus.a6t0o",
+  "ver": "1.0.7",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "mota_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 15378212,
+  "app": 15379236,
+  "bundleName": "com.example.mo2.t1795445328804309349b292b4",
+  "ver": "1.0.0",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "mcderaft_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 4830542,
+  "app": 4831566,
+  "bundleName": "nexus.sign.wmfqs.nexus.hjnyy",
+  "ver": "1.0.1",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "wordle_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 165846,
+  "app": 166870,
+  "bundleName": "com.github.kqakqakqa.zhshi.wordle",
+  "ver": "0.1.2.20250706",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
+ },
+ {
+  "out": "sanguosha_gt7.app",
+  "pkg": "entry-release-lite",
+  "hap": 3220191,
+  "app": 3221215,
+  "bundleName": "nexus.sign.wsgsjdb.nexus.o1acf",
+  "ver": "1.0.4",
+  "deviceTypes": [
+   "liteWearable"
+  ],
+  "watch": "GT7"
  }
 ]
